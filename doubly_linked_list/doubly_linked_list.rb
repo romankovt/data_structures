@@ -40,10 +40,12 @@ class DoublyLinkedList
   end
 
   def swap(node1, node2)
-
+    temp = node1.value
+    node1.value = node2.value
+    node2.value = temp
   end
 
-  def append(node, new_node)
+  def append(new_node)
 
   end
 
