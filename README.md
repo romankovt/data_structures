@@ -1,1 +1,1 @@
-** Data structure implementations in Ruby **
+**Data structure implementations in Ruby**
