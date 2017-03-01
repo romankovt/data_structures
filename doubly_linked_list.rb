@@ -1,5 +1,12 @@
 require 'pry'
-require 'node'
+
+class Node
+  attr_accessor :value, :next, :prev
+
+  def initialize(value)
+    @value = value
+  end
+end
 
 class DoublyLinkedList
   attr_accessor :nodes
